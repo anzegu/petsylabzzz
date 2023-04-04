@@ -306,8 +306,8 @@
           <span class="text-blue-900 relative text-xl md:text-3xl bg-white z-10 text-center font-bold px-4">CUSTOMER REVIEWS</span>
           <div class="bg-blue-900 absolute w-full h-[2px] z-0 top-1/2"></div>
         </div>
-        <div class="flex flex-col md:flex-row items-center md:items-start justify-center">
-          <div class="w-full md:1/2 lg:w-1/3">
+        <div class="flex flex-wrap items-center md:items-start justify-center">
+          <div class="w-full md:w-1/2 lg:w-1/3">
             <div class="flex flex-row items-cente justify-center md:justify-start">
               <span class="text-blue-900 text-xl font-bold">4.8</span>
               <img loading="lazy" class="inline w-5 ml-2" src="img/star.svg"><img loading="lazy" class="inline w-5" src="img/star.svg"><img loading="lazy" class="inline w-5" src="img/star.svg"><img loading="lazy" class="inline w-5" src="img/star.svg"><img loading="lazy" class="inline w-5" src="img/star.svg">
@@ -364,30 +364,21 @@
               </div>
             </div>
           </div>
-          <div class="w-full md:1/2 lg:w-1/3 text-blue-900 text-center mt-5 md:mt-0 mb-7">
+          <div class="w-full md:w-1/2 lg:w-1/3 text-blue-900 text-center mt-5 md:mt-0 mb-7">
             <span class="text-xl font-bold mr-1">98%</span>
             <span class="text-xs">would recommend these products</span>
           </div>
-          <div class="hidden lg:block lg:w-1/3">
-            <div class="grid grid-cols-5 gap-4 cursor-pointer">
-              <img loading="lazy" class="rModal1 w-16 h-16 object-cover hover:scale-105 transition-all" src="img/d1.webp">
-              <img loading="lazy" class="rModal2 w-16 h-16 object-cover hover:scale-105 transition-all" src="img/d2.webp">
-              <img loading="lazy" class="rModal3 w-16 h-16 object-cover hover:scale-105 transition-all" src="img/d3.webp">
-              <img loading="lazy" class="rModal4 w-16 h-16 object-cover hover:scale-105 transition-all" src="img/d4.webp">
-              <img loading="lazy" class="rModal5 w-16 h-16 object-cover hover:scale-105 transition-all" src="img/d5.webp">
+          <div class="w-full mt-7 lg:mt-0 lg:w-1/3">
+            <div class="grid grid-cols-5 cursor-pointer max-w-md mx-auto gap-1">
+              <img loading="lazy" class="rModal1 w-24 h-24 lg:w-16 lg:h-16 object-cover hover:scale-105 transition-all" src="img/d1.webp">
+              <img loading="lazy" class="rModal2 w-24 h-24 lg:w-16 lg:h-16 object-cover hover:scale-105 transition-all" src="img/d2.webp">
+              <img loading="lazy" class="rModal3 w-24 h-24 lg:w-16 lg:h-16 object-cover hover:scale-105 transition-all" src="img/d3.webp">
+              <img loading="lazy" class="rModal4 w-24 h-24 lg:w-16 lg:h-16 object-cover hover:scale-105 transition-all" src="img/d4.webp">
+              <img loading="lazy" class="rModal5 w-24 h-24 lg:w-16 lg:h-16 object-cover hover:scale-105 transition-all" src="img/d5.webp">
             </div>
           </div>
         </div>
-        <div class="md:block md:w-full lg:hidden mt-5 mx-auto" style="max-width: 450px;">
-          <div class="grid grid-cols-5 gap-2 cursor-pointer">
-            <img loading="lazy" class="rModal1 w-24 h-24 object-cover hover:scale-105 transition-all" src="img/d1.webp">
-            <img loading="lazy" class="rModal2 w-24 h-24 object-cover hover:scale-105 transition-all" src="img/d2.webp">
-            <img loading="lazy" class="rModal3 w-24 h-24 object-cover hover:scale-105 transition-all" src="img/d3.webp">
-            <img loading="lazy" class="rModal4 w-24 h-24 object-cover hover:scale-105 transition-all" src="img/d4.webp">
-            <img loading="lazy" class="rModal5 w-24 h-24 object-cover hover:scale-105 transition-all" src="img/d5.webp">
-          </div>
-        </div>
-        <div class="w-full flex justify-end">
+        <div class="w-full flex justify-end mt-5">
           <a href="#" class="text-red-800 border border-red-800 hover:text-white hover:bg-red-800 hover:fill-white fill-red-800 py-3 px-6 rounded-md text-sm font-bold">
             <svg class="inline w-3 mr-1 fill-inherit" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"/>
@@ -595,10 +586,10 @@
         <!-- FAQ end -->
         <div class="shadow-red-800 rotate-12 h-32"></div>
         <!-- modal za reviewe -->
-        <div id="modal" class="z-50 bg-black bg-opacity-60 top-0 bottom-0 left-0 right-0 px-1 overflow-auto fixed max-h-full flex items-center hidden">
+        <div id="modal" class="z-50 bg-black bg-opacity-60 top-0 bottom-0 left-0 right-0 p-12 overflow-auto fixed max-h-full flex items-start md:items-center hidden">
           <div id="modalC" class="w-full max-w-[1000px] mx-auto bg-black flex flex-col md:flex-row items-center relative">
             <button id="close" class="absolute -top-5 right-0" title="Close"><img loading="lazy" class="w-5 h-5" src="img/red-x.svg"></button>
-            <div class="md:w-[600px] md:h-[600px] bg-black">
+            <div class="md:w-[600px] md:h-[600px] bg-black overflow-hidden">
               <img loading="lazy" class="max-h-[600px] md:h-[600px] mx-auto" src="img/d1.webp">
             </div>
             <div class="md:w-[400px] md:h-[600px] p-8 text-xs bg-white">
