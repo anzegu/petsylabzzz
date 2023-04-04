@@ -51,6 +51,7 @@ module.exports = {
         'pp-brown-100': '#d7cdbb',
         'pp-red-600': '#cd2022',
         'pp-red-50': '#fae8e8',
+        'petsy-main-color': '#F2CC00',
       },
       fontFamily: {
         sans: ['"Open sans"', 'sans-serif'],

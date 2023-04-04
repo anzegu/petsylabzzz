@@ -1,27 +1,7 @@
-<svg role="img" aria-labelledby="starRating" viewBox="0 0 251 46" xmlns="http://www.w3.org/2000/svg" style="position: absolute; height: 100%; width: 100%; left: 0; top: 0;">
-      <title id="starRating" lang="en">4.4 out of five star rating on Trustpilot</title>
-      <g class="tp-star">
-          <path class="tp-star__canvas" fill="#dcdce6" d="M0 46.330002h46.375586V0H0z"></path>
-          <path class="tp-star__shape" d="M39.533936 19.711433L13.230239 38.80065l3.838216-11.797827L7.02115 19.711433h12.418975l3.837417-11.798624 3.837418 11.798624h12.418975zM23.2785 31.510075l7.183595-1.509576 2.862114 8.800152L23.2785 31.510075z" fill="#FFF"></path>
-      </g>
-      <g class="tp-star">
-          <path class="tp-star__canvas" fill="#dcdce6" d="M51.24816 46.330002h46.375587V0H51.248161z"></path>
-          <path class="tp-star__canvas--half" fill="#dcdce6" d="M51.24816 46.330002h23.187793V0H51.248161z"></path>
-          <path class="tp-star__shape" d="M74.990978 31.32991L81.150908 30 84 39l-9.660206-7.202786L64.30279 39l3.895636-11.840666L58 19.841466h12.605577L74.499595 8l3.895637 11.841466H91L74.990978 31.329909z" fill="#FFF"></path>
-      </g>
-      <g class="tp-star">
-          <path class="tp-star__canvas" fill="#dcdce6" d="M102.532209 46.330002h46.375586V0h-46.375586z"></path>
-          <path class="tp-star__canvas--half" fill="#dcdce6" d="M102.532209 46.330002h23.187793V0h-23.187793z"></path>
-          <path class="tp-star__shape" d="M142.066994 19.711433L115.763298 38.80065l3.838215-11.797827-10.047304-7.291391h12.418975l3.837418-11.798624 3.837417 11.798624h12.418975zM125.81156 31.510075l7.183595-1.509576 2.862113 8.800152-10.045708-7.290576z" fill="#FFF"></path>
-      </g>
-      <g class="tp-star">
-          <path class="tp-star__canvas" fill="#dcdce6" d="M153.815458 46.330002h46.375586V0h-46.375586z"></path>
-          <path class="tp-star__canvas--half" fill="#dcdce6" d="M153.815458 46.330002h23.187793V0h-23.187793z"></path>
-          <path class="tp-star__shape" d="M193.348355 19.711433L167.045457 38.80065l3.837417-11.797827-10.047303-7.291391h12.418974l3.837418-11.798624 3.837418 11.798624h12.418974zM177.09292 31.510075l7.183595-1.509576 2.862114 8.800152-10.045709-7.290576z" fill="#FFF"></path>
-      </g>
-      <g class="tp-star">
-          <path class="tp-star__canvas" fill="#dcdce6" d="M205.064416 46.330002h46.375587V0h-46.375587z"></path>
-          <path class="tp-star__canvas--half" fill="#dcdce6" d="M205.064416 46.330002h23.187793V0h-23.187793z"></path>
-          <path class="tp-star__shape" d="M244.597022 19.711433l-26.3029 19.089218 3.837419-11.797827-10.047304-7.291391h12.418974l3.837418-11.798624 3.837418 11.798624h12.418975zm-16.255436 11.798642l7.183595-1.509576 2.862114 8.800152-10.045709-7.290576z" fill="#FFF"></path>
-      </g>
-  </svg>
+<svg width="115" height="20" viewBox="0 0 115 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M104.695 0L102.225 7.4088H94.3906L100.778 12.0074L98.3079 19.331L104.695 14.8176L110.997 19.331L108.612 12.0074L114.999 7.4088H107.079L104.695 0Z" fill="#FFDC0F"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.0981 0L78.6285 7.4088H70.7939L77.1808 12.0074L74.7112 19.331L81.0981 14.8176L87.3999 19.331L85.0154 12.0074L91.4023 7.4088H83.4826L81.0981 0Z" fill="#FFDC0F"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M57.5005 0L55.0309 7.4088H47.1963L53.5832 12.0074L51.1136 19.331L57.5005 14.8176L63.8022 19.331L61.4178 12.0074L67.8047 7.4088H59.8849L57.5005 0Z" fill="#FFDC0F"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M33.9018 0L31.4323 7.4088H23.5977L29.9846 12.0074L27.515 19.331L33.9018 14.8176L40.2036 19.331L37.8191 12.0074L44.206 7.4088H36.2863L33.9018 0Z" fill="#FFDC0F"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.3042 0L7.83459 7.4088H0L6.3869 12.0074L3.9173 19.331L10.3042 14.8176L16.6059 19.331L14.2215 12.0074L20.6084 7.4088H12.6886L10.3042 0Z" fill="#FFDC0F"/>
+</svg>
