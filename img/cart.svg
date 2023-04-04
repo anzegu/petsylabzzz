@@ -1,0 +1,13 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="22.132" height="17.882" viewBox="0 0 22.132 17.882">
+  <g id="cart" transform="translate(0.982 0.982)">
+    <path id="Path_4" d="M1.1,1,4.9,2.6l2,7.2H18.4l3.1-7.2H7.9" transform="translate(-1.1 -1)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_5" d="M7,10.3l-.6,2.8H17.2" transform="translate(-1.1 -1)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <g id="Group_2990" data-name="Group 2990" transform="translate(5.3 12.3)">
+      <path id="Path_3765" data-name="Path 3765" d="M8.7,14.8a.789.789,0,0,1,.8.8.736.736,0,0,1-.8.8.8.8,0,1,1,0-1.6m0-1.5A2.3,2.3,0,1,0,11,15.6a2.326,2.326,0,0,0-2.3-2.3Z" transform="translate(-6.4 -13.3)" fill="#fff"/>
+    </g>
+    <g id="Group_2991" data-name="Group 2991" transform="translate(12 12.3)">
+      <path id="Path_3766" data-name="Path 3766" d="M15.4,14.8a.789.789,0,0,1,.8.8.8.8,0,0,1-1.6,0,.789.789,0,0,1,.8-.8m0-1.5a2.3,2.3,0,1,0,2.3,2.3,2.263,2.263,0,0,0-2.3-2.3Z" transform="translate(-13.1 -13.3)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

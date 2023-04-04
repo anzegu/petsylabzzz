@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+.scroll-hide {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+.accordion.active .plus {
+  display:none
+}
+.accordion.active .minus {
+  display:block
+}
+.accordion .minus {
+  display:none
+}
