@@ -275,7 +275,7 @@
               <img id="ribbon" loading="lazy" class="absolute w-14 -top-2 -right-2" src="img/ribbon.svg">
             </div>
 
-            <a id="mainBtn" href="#">
+            <a id="mainBtn" href="https://petsylabs.de/shop/onecheckout/add-to-cart/?intro&empty_cart=1&product_id=24&qty=1">
               <button class="w-full justify-center flex items-center rounded bg-red-700 border-b-4 border-red-900 hover:bg-red-900 text-white font-bold px-4 py-4 mt-4 duration-300 text-[22px]">
                   <p class="ml-auto">ADD TO CART</p>
                   <img loading="lazy" class="ml-auto" src="img/cart.svg">
@@ -915,25 +915,21 @@
       })
 
       var package1 =  document.getElementById("package1");
-      var btn1Href = "link za 1 paket";
+      var btn1Href = "https://petsylabs.de/shop/onecheckout/add-to-cart/?intro&empty_cart=1&product_id=24&qty=1";
       var reduced1 = "69,90 €";
       var base1 = "79,90 €";
       var savings1 = "10,00 €";
 
-      var package2 =  document.getElementById("package2");
-      var btn2Href = "link za 2 paketa";
-      var reduced2 = "194,70 €";
-      var base2 = "239,70 €";
-      var savings2 = "45,00 €";
+
 
       var package3 =  document.getElementById("package3");
-      var btn3Href = "link za 3 pakete";
+      var btn3Href = "https://petsylabs.de/shop/onecheckout/add-to-cart/?intro&empty_cart=1&product_id=24&qty=3";
       var reduced3 = "359,40 €";
       var base3 = "479,40 €";
       var savings3 = "120,00 €";
 
       var package4 =  document.getElementById("package4");
-      var btn4Href = "link za 4 pakete";
+      var btn4Href = "https://petsylabs.de/shop/onecheckout/add-to-cart/?intro&empty_cart=1&product_id=24&qty=6";
       var reduced4 = "459,40 €";
       var base4 = "579,40 €";
       var savings4 = "120,00 €";
@@ -943,16 +939,14 @@
       var ribbon =  document.getElementById("ribbon");
 
       var check1 = document.getElementById("check1");
-      var check2 = document.getElementById("check2");
       var check3 = document.getElementById("check3");
       var check4 = document.getElementById("check4");
 
       var unselected = "py-3 border border-blue-900 border-opacity-10 rounded-lg shadow-md";
-      var selected = "py-3 border border-red-800 bg-red-800 bg-opacity-10 rounded-md";
+      var selected = "py-3 border border-petsy-green bg-petsy-green bg-opacity-10 rounded-md";
 
       package1.addEventListener("click",function(){
         package1.className = unselected;
-        package2.className = unselected;
         package3.className = unselected;
         package4.className = unselected;
         package1.className = selected;
@@ -963,32 +957,13 @@
         document.getElementById("savings").innerText = savings1;
 
         check1.checked = 0;
-        check2.checked = 0;
         check3.checked = 0;
         check4.checked = 0;
         check1.checked = 1;
       })
-      package2.addEventListener("click",function(){
-        package1.className = unselected;
-        package2.className = unselected;
-        package3.className = unselected;
-        package4.className = unselected;
-        package2.className = selected;
-        
-        document.getElementById("mainBtn").href = btn2Href;
-        document.getElementById("reduced").innerText = reduced2;
-        document.getElementById("base").innerText = base2;
-        document.getElementById("savings").innerText = savings2;
 
-        check1.checked = 0;
-        check2.checked = 0;
-        check3.checked = 0;
-        check4.checked = 0;
-        check2.checked = 1;
-      })
       package3.addEventListener("click",function(){
         package1.className = unselected;
-        package2.className = unselected;
         package3.className = unselected;
         package4.className = unselected;
         package3.className = selected;
@@ -999,14 +974,12 @@
         document.getElementById("savings").innerText = savings3;
 
         check1.checked = 0;
-        check2.checked = 0;
         check3.checked = 0;
         check4.checked = 0;
         check3.checked = 1;
       })
       package4.addEventListener("click",function(){
         package1.className = unselected;
-        package2.className = unselected;
         package3.className = unselected;
         package4.className = unselected;
         package4.className = selected;
@@ -1017,7 +990,6 @@
         document.getElementById("savings").innerText = savings4;
 
         check1.checked = 0;
-        check2.checked = 0;
         check3.checked = 0;
         check4.checked = 0;
         check4.checked = 1;
