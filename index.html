@@ -917,23 +917,23 @@
 
       var package1 =  document.getElementById("package1");
       var btn1Href = "https://petsylabs.de/shop/onecheckout/add-to-cart/?intro&empty_cart=1&product_id=24&qty=1";
-      var reduced1 = "69,90 €";
-      var base1 = "79,90 €";
+      var reduced1 = "49,90 €";
+      var base1 = "<del>Regulärer Preis: 59,90 €</del>";
       var savings1 = "10,00 €";
 
 
 
       var package3 =  document.getElementById("package3");
       var btn3Href = "https://petsylabs.de/shop/onecheckout/add-to-cart/?intro&empty_cart=1&product_id=24&qty=3";
-      var reduced3 = "359,40 €";
-      var base3 = "479,40 €";
-      var savings3 = "120,00 €";
+      var reduced3 = "119,70 €";
+      var base3 = "<del>Regulärer Preis: 149,7 €</del>";
+      var savings3 = "30,00 €";
 
       var package4 =  document.getElementById("package4");
       var btn4Href = "https://petsylabs.de/shop/onecheckout/add-to-cart/?intro&empty_cart=1&product_id=24&qty=6";
-      var reduced4 = "459,40 €";
-      var base4 = "579,40 €";
-      var savings4 = "120,00 €";
+      var reduced4 = "209,40 €";
+      var base4 = "<del>Regulärer Preis: 299,40 €</del>";
+      var savings4 = "90,00 €";
 
       var bump =  document.getElementById("bump");
       var bumpCheck =  document.getElementById("bumpCheck");
@@ -954,7 +954,7 @@
 
         document.getElementById("mainBtn").href = btn1Href;
         document.getElementById("reduced").innerText = reduced1;
-        document.getElementById("base").innerText = base1;
+        document.getElementById("base").innerHTML = base1;
         document.getElementById("savings").innerText = savings1;
 
         check1.checked = 0;
@@ -971,7 +971,7 @@
         
         document.getElementById("mainBtn").href = btn3Href;
         document.getElementById("reduced").innerText = reduced3;
-        document.getElementById("base").innerText = base3;
+        document.getElementById("base").innerHTML = base3;
         document.getElementById("savings").innerText = savings3;
 
         check1.checked = 0;
@@ -987,7 +987,7 @@
         
         document.getElementById("mainBtn").href = btn4Href;
         document.getElementById("reduced").innerText = reduced4;
-        document.getElementById("base").innerText = base4;
+        document.getElementById("base").innerHTML = base4;
         document.getElementById("savings").innerText = savings4;
 
         check1.checked = 0;
