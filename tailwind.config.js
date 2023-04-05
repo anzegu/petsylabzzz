@@ -52,11 +52,17 @@ module.exports = {
         'pp-red-600': '#cd2022',
         'pp-red-50': '#fae8e8',
         'petsy-main-color': '#F2CC00',
+        'petsy-dark-red': '#b00202',
+        'petsy-blue': '#0a2c97',
+        'petsy-green': '#56B18C',
       },
       fontFamily: {
         sans: ['"Open sans"', 'sans-serif'],
         ppserif : ['Merriweather'],
-        danc: ['Dancing Script', 'cursive']
+        danc: ['Dancing Script', 'cursive'],
+        play: [ 'PT Serif', 'serif'],
+        grotesk: [ 'Schibsted Grotesk', 'sans-serif'],
+
       },
     },
     screens:{
