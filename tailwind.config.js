@@ -55,6 +55,7 @@ module.exports = {
         'petsy-dark-red': '#b00202',
         'petsy-blue': '#0a2c97',
         'petsy-green': '#56B18C',
+        'petsy-dark-green': '#51b37f',
       },
       fontFamily: {
         sans: ['"Open sans"', 'sans-serif'],
