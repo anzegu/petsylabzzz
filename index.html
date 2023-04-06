@@ -30,7 +30,7 @@
     <section>
       <div class="container mx-auto md:px-5 2xl:px-6 md:max-w-4xl lg:max-w-6xl">
         <div class="flex flex-row items-center justify-between md:max-w-4xl lg:max-w-6xl mx-auto py-6">
-          <img src="img/logo-2.svg" class="w-43">
+          <img src="img/logo-2.svg" class="w-43 pl-4 lg:pl-0">
           <div class="hidden lg:flex flex-row items-center self-end mx-auto" style="display: none;">
             <img class="w-10 mr-2" src="img/trustp.svg">
             <p class="pr-2 font-bold text-base">4.75</p>
@@ -43,34 +43,41 @@
           </div>
 
           <div class="hidden md:flex flex-row self-end text-sm">
-            <a href="#" class="text-petsy-blue hover:underline pr-6">Vorteile</a>
-            <a href="#" class="text-petsy-blue hover:underline pr-6">Referenzen</a>
-            <a href="#" class="text-petsy-blue hover:underline pr-6">Inhaltsstoffe</a>
-            <a href="#" class="text-petsy-blue hover:underline">FAQ</a>
+            <a href="#advantages" class="text-petsy-blue hover:underline pr-6">Vorteile</a>
+            <a href="#credentials" class="text-petsy-blue hover:underline pr-6">Referenzen</a>
+            <a href="#ingredients" class="text-petsy-blue hover:underline pr-6">Inhaltsstoffe</a>
+            <a href="#faq" class="text-petsy-blue hover:underline">FAQ</a>
           </div>
           <div class="block md:hidden">
             <button class="flex items-center px-3 py-2 rounded text-blue-900 trigger-m">
-              <svg class="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg>
+              <svg class="fill-current h-7 w-7 mr-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg>
             </button>
           </div>
         </div>
       </div>
 
       <div class="show-m flex flex-col items-center lg:hidden h-0 transition-all overflow-hidden">
-        <a href="#" class="text-petsy-blue hover:underline pr-4">Vorteile</a>
-        <a href="#" class="text-petsy-blue hover:underline pr-4">Referenzen</a>
-        <a href="#" class="text-petsy-blue hover:underline pr-4">Inhaltsstoffe</a>
-        <a href="#" class="text-petsy-blue hover:underline">FAQ</a>
+        <a href="#advantages" class="text-petsy-blue hover:underline pr-4 mb-2">Vorteile</a>
+        <a href="#credentials" class="text-petsy-blue hover:underline pr-4 mb-2">Referenzen</a>
+        <a href="#ingredients" class="text-petsy-blue hover:underline pr-4 mb-2">Inhaltsstoffe</a>
+        <a href="#faq" class="text-petsy-blue hover:underline pr-4 mb-2">FAQ</a>
       </div>
-      <div class="lg:hidden flex flex-row items-center pt-4 justify-center mx-auto">
-        <img class="w-10 mr-2" src="img/trustp.svg">
-        <p class="pr-2">4.75</p>
-        <img class="w-28" src="img/stars.svg">
-        <img class="w-20 ml-1" src="img/trustp.svg" style="display: none;">
+
+
+      <div class="lg:hidden flex flex-row items-center pt-0 justify-center mx-auto mb-3 -mt-4">
+        <etrusted-widget data-etrusted-widget-id="wdg-1e586f30-5c3c-4f28-b06f-57b79f839272"></etrusted-widget>
       </div>
-      <div class="w-full bg-cover bg-center py-2" style="background-image: url(img/banner.png);">
-        <h1 class="text-white border-[#000] text-xl text-center font-bold tracking-widest font-ppserif">Hergestellt in der EU</h1>
+
+
+      <div class="w-full bg-cover bg-center py-3 lg:py-2 hidden lg:block" style="background-image: url(assets/banner.png);">
+        <h1 class="text-white border-[#000] text-lg text-center font-bold tracking-widest font-ppserif lg:text-xl">Hergestellt in der EU</h1>
       </div>
+
+
+      <div class="w-full bg-cover bg-center py-3 lg:py-2 lg:hidden" style="background-image: url(assets/banner-xs.png);">
+        <h1 class="text-white border-[#000] text-lg text-center font-bold tracking-widest font-ppserif lg:text-xl">Hergestellt in der EU</h1>
+      </div>
+
       <div class="container mx-auto px-3 md:px-5 2xl:px-6 md:max-w-4xl lg:max-w-6xl pt-5 py-20">
         <div class="flex flex-col lg:flex-row justify-center items-start w-full">
           <div class="relative w-full lg:w-1/2 ">
@@ -91,10 +98,10 @@
                 <img loading="lazy" id="mainImg" class="w-full rounded-sm block" src="img/p1.jpg">
 
 
-                <svg class="arrow-l cursor-pointer absolute top-1/2 -left-6 w-5 h-5 sm:w-5 sm:h-5 fill-pp-grey-200"  width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.3;"><path d="M11.835 18.13L10.065 19.9L0.165022 10L10.065 0.100006L11.835 1.87001L3.70502 10L11.835 18.13H11.835Z" fill="#001c72"/></svg>
+                <svg class="arrow-l cursor-pointer absolute top-1/2 -left-0 w-5 h-5 sm:w-5 sm:h-5 sm:-left-6 fill-pp-grey-200 "  width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.3;"><path d="M11.835 18.13L10.065 19.9L0.165022 10L10.065 0.100006L11.835 1.87001L3.70502 10L11.835 18.13H11.835Z" fill="#001c72"/></svg>
 
 
-                <svg class="arrow-r cursor-pointer absolute top-1/2 -right-6 w-5 h-5 sm:w-5 sm:h-5 fill-pp-grey-200" width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.3;">
+                <svg class="arrow-r cursor-pointer absolute top-1/2 -right-0 w-5 h-5 sm:w-5 sm:h-5 fill-pp-grey-200 sm:-right-6" width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.3;">
                 <g clip-path="url(#clip0_448_541)">
                 <path d="M0.164062 18.1301L1.93406 19.9001L11.8341 10.0001L1.93406 0.100098L0.164062 1.8701L8.29406 10.0001L0.164062 18.1301Z" fill="#001C72"/>
                 </g>
@@ -110,7 +117,7 @@
               </div>
             </div>
 
-            <div class="hidden lg:block">
+            <div class="hidden lg:block" id="advantages">
               <p class="py-4 text-sm leading-6">Canine Booster ist ein Gamechanger, ein einzigartiges Nahrungsergänzungsmittel für die Gesundheit Ihres Hundes. Die Kombination von Probiotika, Superfoods, Vitaminen, Mineralstoffen, Antioxidantien und Verdauungsenzymen für eine dauerhafte Ernährung. Das Komplettpaket zur Unterstützung des Immunsystems, der Verdauung, der Darmgesundheit, der Beweglichkeit der Gelenke sowie des Glanzes von Haut und Fell. Ihr Hund wird Canine Booster mit Rindfleischgeschmack lieben. Und Sie werden es lieben, wie es sich dabei fühlen wird!</p>
               <p class="flex flex-row items-center py-2 text-sm"><img loading="lazy" src="img/blue-h.svg"><span class="pl-2 text-petsy-blue">Superfoods Blend - Grünlippmuschel, Kurkuma, Seetang, Spirulina & Leinsamen.</span></p>
               <p class="flex flex-row items-center pb-2 text-sm"><img loading="lazy" src="img/blue-h.svg"><span class="pl-2 text-petsy-blue ">Probiotika, Präbiotika und Verdauungsenzyme – 7 Inhaltsstoffe für die Darmgesundheit, darunter 2 Milliarden KBE guter Bakterien in jedem Messlöffel.</span></p>
@@ -175,38 +182,38 @@
 
 
             </div>
-            <p class="text-gray-700 py-3 text-md font-play">
+            <p class="text-gray-700 py-3 text-sm font-play leading-6 lg:text-base lg:leading-nprmal">
               <i>„Unsere Dogge, die jetzt fast 9 Jahre alt ist, hatte Durchfall und Juckreiz und rote Haut fast am ganzen Körper, außerdem war sie sehr antriebslos. Wir geben unserer Dogge Canine Booster von Petsy labs jetzt seit drei Monaten und das Ergebnis ist verblüffend, der Juckreiz und die Rötung der Haut sind weg und der Durchfall ist auch komplett weg, die ersten positiven Ergebnisse zeigten sich nach etwa zwei bis drei Wochen.“</i>
               <br>
-              <b class="text-gray-700 py-5 text-md text-bold font-play">— Hans Dasler.</b>
+              <b class="text-gray-700 pt-3 text-base text-bold font-play block lg:text-lg">— Hans Dasler.</b>
             </p>
             <hr class="border-blue-900 border-opacity-10">
-            <p class="flex flex-row items-center pt-4 pb-2 text-sm text-petsy-blue"><img loading="lazy" src="img/blue-h.svg"><span class="pl-2">Das meistverkaufte Nahrungsergänzungsmittel für Hunde in der EU*</span></p>
-            <p class="flex flex-row items-center pb-2 text-sm text-petsy-blue"><img loading="lazy" src="img/blue-h.svg"><span class="pl-2">Natürliche, von Tierernährungsexperten ausgewählte Inhaltsstoffe</span></p>
-            <p class="flex flex-row items-center pb-2 text-sm text-petsy-blue"><img loading="lazy" src="img/blue-h.svg"><span class="pl-2">Supports overall health & digestionUnterstützt die allgemeine Gesundheit und das Immunsystem</span></p>
-            <p class="flex flex-row items-center pb-2 text-sm text-petsy-blue"><img loading="lazy" src="img/blue-h.svg"><span class="pl-2">Unterstützung bei saisonalen und gelegentlichen Allergien</span></p>
+            <p class="flex flex-row items-center pt-4 pb-4 text-sm text-petsy-blue lg:pb-2"><img loading="lazy" src="img/blue-h.svg"><span class="pl-3">Das meistverkaufte Nahrungsergänzungsmittel für Hunde</span></p>
+            <p class="flex flex-row items-center pb-4 text-sm text-petsy-blue lg:pb-2"><img loading="lazy" src="img/blue-h.svg"><span class="pl-3">Natürliche, von Tierernährungsexperten ausgewählte Inhaltsstoffe</span></p>
+            <p class="flex flex-row items-center pb-4 text-sm text-petsy-blue lg:pb-2"><img loading="lazy" src="img/blue-h.svg"><span class="pl-3">Supports overall health & digestionUnterstützt die allgemeine Gesundheit und das Immunsystem</span></p>
+            <p class="flex flex-row items-center pb-4 text-sm text-petsy-blue lg:pb-2"><img loading="lazy" src="img/blue-h.svg"><span class="pl-3">Unterstützung bei saisonalen und gelegentlichen Allergien</span></p>
 
-            <p class="flex flex-row items-center pb-2 text-sm text-petsy-blue"><img loading="lazy" src="img/blue-h.svg"><span class="pl-2">Unterstützung der Gelenk- und Knochenmobilität</span></p>
+            <p class="flex flex-row items-center pb-4 text-sm text-petsy-blue lg:pb-2"><img loading="lazy" src="img/blue-h.svg"><span class="pl-3">Unterstützung der Gelenk- und Knochenmobilität</span></p>
 
-            <p class="flex flex-row items-center text-sm text-petsy-blue"><img loading="lazy" src="img/blue-h.svg"><span class="pl-2">Unterstützung der Verdauung und des Darmgleichgewichts</span></p>
+            <p class="flex flex-row items-center text-sm text-petsy-blue"><img loading="lazy" src="img/blue-h.svg"><span class="pl-3">Unterstützung der Verdauung und des Darmgleichgewichts</span></p>
 
-            <p class="py-5 text-lg text-petsy-blue font-ppserif">Menge auswählen (150 g pro Dose):</p>
-            <div class="grid grid-cols-3 lg:grid-cols-3 gap-3 cursor-pointer">
+            <p class="py-5 text-lg text-petsy-blue font-ppserif pt-8 lg:pt-6">Menge auswählen (150 g pro Dose):</p>
+            <div class="grid grid-cols-3 lg:grid-cols-3 gap-1.5 cursor-pointer">
 
               <div id="package1" class="py-3 border border-petsy-green bg-petsy-green bg-opacity-10 rounded-md">
                 <input id="check1" type="radio" class="hidden">
-                <img loading="lazy" class="w-32 mx-auto opacity-90 hover:opacity-100" src="img/tub1.png">
+                <img loading="lazy" class="w-24 lg:w-32 mx-auto opacity-90 hover:opacity-100" src="img/tub1.png">
                 <p class="text-base text-center text-pp-grey-500 pt-1">1 Dose</p>
               </div>
 
               <div id="package3" class="py-3 border border-blue-900 border-opacity-10 rounded-lg shadow-md">
                 <input id="check3" type="radio" class="hidden">
-                <img loading="lazy" class="w-32 mx-auto opacity-90 hover:opacity-100" src="img/tub3.png">
+                <img loading="lazy" class="w-24 lg:w-32 mx-auto opacity-90 hover:opacity-100" src="img/tub3.png">
                 <p class="text-base text-center text-pp-grey-500 pt-1">3 Dosen</p>
               </div>
               <div id="package4" class="py-3 border border-blue-900 border-opacity-10 rounded-lg shadow-md">
                 <input id="check4" type="radio" class="hidden">
-                <img loading="lazy" class="w-32 mx-auto opacity-90 hover:opacity-100" src="img/tub4.png">
+                <img loading="lazy" class="w-24 lg:w-32 mx-auto opacity-90 hover:opacity-100" src="img/tub4.png">
                 <p class="text-base text-center text-pp-grey-500 pt-1">6 Dosen</p>
               </div>
             </div>
@@ -285,15 +292,15 @@
             <img src="img/payments.svg" class="mx-auto mt-5 w-full" style="max-width: 280px;">
             <p class="text-[13px] text-blue-900 text-center mt-1">Alle Transaktionen werden gesichert & verschlüsselt</p>
 
-            <div class="lg:hidden">
-              <p class="py-4 text-base text-petsy-blue">Canine Booster ist ein Gamechanger, ein einzigartiges Nahrungsergänzungsmittel für die Gesundheit Ihres Hundes. Die Kombination von Probiotika, Superfoods, Vitaminen, Mineralstoffen, Antioxidantien und Verdauungsenzymen für eine dauerhafte Ernährung. Das Komplettpaket zur Unterstützung des Immunsystems, der Verdauung, der Darmgesundheit, der Beweglichkeit der Gelenke sowie des Glanzes von Haut und Fell. Ihr Hund wird Canine Booster mit Rindfleischgeschmack lieben. Und Sie werden es lieben, wie es sich dabei fühlen wird!</p>
-              <p class="flex flex-row items-center py-2 text-base"><img loading="lazy" src="img/blue-h.svg"><span class="pl-4 text-petsy-blue">Superfoods Blend - Grünlippmuschel, Kurkuma, Seetang, Spirulina & Leinsamen.</span></p>
-              <p class="flex flex-row items-center pb-2 text-base"><img loading="lazy" src="img/blue-h.svg"><span class="pl-4 text-petsy-blue">Probiotika, Präbiotika und Verdauungsenzyme – 7 Inhaltsstoffe für die Darmgesundheit, darunter 2 Milliarden KBE guter Bakterien in jedem Messlöffel.</span></p>
-              <p class="flex flex-row items-center pb-2 text-base"><img loading="lazy" src="img/blue-h.svg"><span class="pl-4 text-petsy-blue">Vitamine und Mineralien – Eine gesunde Kombination aus Vitaminen und Mineralien, die zum Schutz und zur Unterstützung der Gesundheit von Zähnen, Knochen, Fell, Haut und Darm beitragen.</span></p>
+            <div class="lg:hidden" id="advantages">
+              <p class="py-4 text-sm text-petsy-blue leading-6 lg:text-base lg:leading-nprmal">Canine Booster ist ein Gamechanger, ein einzigartiges Nahrungsergänzungsmittel für die Gesundheit Ihres Hundes. Die Kombination von Probiotika, Superfoods, Vitaminen, Mineralstoffen, Antioxidantien und Verdauungsenzymen für eine dauerhafte Ernährung. Das Komplettpaket zur Unterstützung des Immunsystems, der Verdauung, der Darmgesundheit, der Beweglichkeit der Gelenke sowie des Glanzes von Haut und Fell. Ihr Hund wird Canine Booster mit Rindfleischgeschmack lieben. Und Sie werden es lieben, wie es sich dabei fühlen wird!</p>
+              <p class="flex flex-row items-center py-4 text-sm"><img loading="lazy" src="img/blue-h.svg"><span class="pl-3 text-petsy-blue">Superfoods Blend - Grünlippmuschel, Kurkuma, Seetang, Spirulina & Leinsamen.</span></p>
+              <p class="flex flex-row items-center pb-4 text-sm"><img loading="lazy" src="img/blue-h.svg"><span class="pl-3 text-petsy-blue">Probiotika, Präbiotika und Verdauungsenzyme – 7 Inhaltsstoffe für die Darmgesundheit, darunter 2 Milliarden KBE guter Bakterien in jedem Messlöffel.</span></p>
+              <p class="flex flex-row items-center pb-4 text-sm"><img loading="lazy" src="img/blue-h.svg"><span class="pl-3 text-petsy-blue">Vitamine und Mineralien – Eine gesunde Kombination aus Vitaminen und Mineralien, die zum Schutz und zur Unterstützung der Gesundheit von Zähnen, Knochen, Fell, Haut und Darm beitragen.</span></p>
 
-              <p class="flex flex-row items-center pb-2 text-base"><img loading="lazy" src="img/blue-h.svg"><span class="pl-4 text-petsy-blue">Entwickelt von einem Experten für Tierernährung Dasa Korze.</span></p>
+              <p class="flex flex-row items-center pb-4 text-sm"><img loading="lazy" src="img/blue-h.svg"><span class="pl-3 text-petsy-blue">Entwickelt von einem Experten für Tierernährung Dasa Korze.</span></p>
 
-              <p class="flex flex-row items-center pb-2 text-base"><img loading="lazy" src="img/blue-h.svg"><span class="pl-4 text-petsy-blue">Empfohlen vom renommierten Tierarzt Dr. Matej Zupanc.</span></p>
+              <p class="flex flex-row items-center pb-4 text-sm"><img loading="lazy" src="img/blue-h.svg"><span class="pl-3 text-petsy-blue">Empfohlen vom renommierten Tierarzt Dr. Matej Zupanc.</span></p>
 
 
               <div class="flex flex-row justify-between text-sm pt-4 text-blue-900">
@@ -321,7 +328,7 @@
                 <p>2 Messlöffel (pro Tag)</p>
               </div>
               <hr class="border-blue-900 border-[3px]">
-              <div class="flex flex-col lg:flex-row items-center justify-between pt-4">
+              <div class="flex flex-col lg:flex-row items-center justify-between pt-7">
                 <div class="flex flex-row w-full lg:w-1/2">
                   <img loading="lazy" class="w-16" src="img/usa.svg">
                   <p class="text-blue-900 pl-2 leading-3">
@@ -346,22 +353,22 @@
           <span class="text-blue-900 relative text-xl md:text-2xl bg-white z-10 text-center font-bold px-4">WIE AUF GESPONSORTEN INHALTEN ZU SEHEN*</span>
           <div class="bg-blue-900 absolute w-full h-[2px] z-0 top-1/2"></div>
         </div>
-        <div class="grid grid-cols-5 gap-4 items-center" style="display: none;">
-          <img loading="lazy" class="w-24 mx-auto" src="img/cbs.webp">
-          <img loading="lazy" class="w-28 mx-auto" src="img/abc.webp">
-          <img loading="lazy" class="w-44 mx-auto" src="img/buzzfeed.svg">
-          <img loading="lazy" class="w-28 mx-auto" src="img/nbc.webp">
-          <img loading="lazy" class="w-32 mx-auto" src="img/forbes.svg">
+        <div class="grid grid-cols-5 gap-4 items-center">
+          <img loading="lazy" class="w-20 mx-auto" src="img/sp-1.png">
+          <img loading="lazy" class="w-10 mx-auto" src="img/sp-2.png">
+          <img loading="lazy" class="w-10 mx-auto" src="img/sp-3.png">
+          <img loading="lazy" class="w-20 mx-auto" src="img/sp-1.png">
+          <img loading="lazy" class="w-10 mx-auto" src="img/sp-2.png">
         </div>
-        <div class="grid grid-cols-3 lg:grid-cols-3 gap-4 mt-20 text-center">
-          <img loading="lazy" class="w-36 mx-auto" src="img/agave.svg">
-          <img loading="lazy" class="w-36" src="img/honey.svg" style="display: none;">
-          <img loading="lazy" class="w-36" src="img/pumpkin.svg" style="display: none;">
-          <img loading="lazy" class="w-36 mx-auto" src="img/pork.svg">
-          <img loading="lazy" class="w-36" src="img/3b.svg" style="display: none;">
+        <div class="grid grid-cols-3 lg:grid-cols-6 gap-4 mt-20 text-center">
+          <img loading="lazy" class="w-36" src="img/agave.svg">
+          <img loading="lazy" class="w-36" src="img/glucosamin.svg">
+          <img loading="lazy" class="w-36" src="img/kurkuma.svg">
+          <img loading="lazy" class="w-36" src="img/pork.svg">
+          <img loading="lazy" class="w-36" src="img/flexseed.svg">
           <img loading="lazy" class="w-36 mx-auto" src="img/mitu.svg">
         </div>
-        <div class="relative text-center mt-20 mb-10">
+        <div class="relative text-center mt-20 mb-10" id="credentials">
           <span class="text-blue-900 relative text-xl md:text-3xl bg-white z-10 text-center font-bold px-4">KUNDENBEWERTUNGEN</span>
           <div class="bg-blue-900 absolute w-full h-[2px] z-0 top-1/2"></div>
         </div>
@@ -379,7 +386,7 @@
               </div>
               <div class="rounded bg-gray-100 w-64 h-[6px]"><div class="rounded bg-gray-300 w-4/5 h-[6px]"></div></div>
               <div class="w-5">
-                <span class="text-xs ml-3 text-gray-500">2,4k</span>
+                <span class="text-xs ml-3 text-gray-500">2,1k</span>
               </div>
             </div>
             <div class="w-80 flex flex-row items-center justify-center md:justify-start mt-1 mx-auto md:mx-0">
@@ -389,7 +396,7 @@
               </div>
               <div class="rounded bg-gray-100 w-64 h-[6px]"><div class="rounded bg-gray-300 w-1/5 h-[6px]"></div></div>
               <div class="w-5">
-                <span class="text-xs ml-3 text-gray-500">521</span>
+                <span class="text-xs ml-3 text-gray-500">321</span>
               </div>
             </div>
             <div class="w-80 flex flex-row items-center justify-center md:justify-start mt-1 mx-auto md:mx-0">
@@ -1013,28 +1020,28 @@
 
 
 
-        <div class="relative text-center mt-20 mb-20">
+        <div class="relative text-center mt-20 mb-16 lg:mb-20" id="ingredients">
           <span class="text-blue-900 relative text-xl md:text-3xl bg-white z-10 text-center font-bold px-4">INHALTSSTOFFE</span>
           <div class="bg-blue-900 absolute w-full h-[2px] z-0 top-1/2"></div>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 max-w-3xl mx-auto gap-6 text-center sm:text-left mt-8">
-          <div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 max-w-3xl mx-auto gap-6 text-center sm:text-left lg:mt-8">
+          <div class="px-5 lg:pl-0">
             <img loading="lazy" class="rounded-full w-full mx-auto sm:mx-0 max-w-[150px] sm:max-w-[180px]" src="img/flaxseed.jpg">
             <p class="text-2xl text-blue-900 py-4 font-play">Leinsamen</p>
             <p class="text-sm leading-5">ist reich an Omega-3-Fettsäuren, die helfen können, Entzündungen zu reduzieren, was für Hunde mit Erkrankungen wie Arthritis, Allergien und Hauterkrankungen von Vorteil sein kann. Leinsamenmehl liefert auch einen hohen Anteil an Ballaststoffen, die helfen können, einen regelmäßigen Stuhlgang und ein gesundes Verdauungssystem zu fördern. </p>
           </div>
-          <div>
+          <div class="mt-10 lg:mt-0 px-5 lg:pl-0">
             <img loading="lazy" class="rounded-full w-full mx-auto sm:mx-0 max-w-[150px] sm:max-w-[180px]" src="img/lacto.jpg">
             <p class="text-2xl text-blue-900 py-4 font-play">Lactobacillus acidophilus</p>
             <p class="text-sm leading-5">Art von nützlichen Bakterien, die häufig im Magen-Darm-Trakt von Hunden vorkommen. Es ist ein Probiotikum, was bedeutet, dass es hilft, ein gesundes Bakteriengleichgewicht im Darm zu fördern und die Verdauung zu verbessern, das Immunsystem zu stärken und vor schädlichen Bakterien zu schützen.</p>
           </div>
-          <div class="mt-10">
+          <div class="mt-10 px-5 lg:pl-0">
             <img loading="lazy" class="rounded-full w-full mx-auto sm:mx-0 max-w-[150px] sm:max-w-[180px]" src="img/green-m.jpg">
             <p class="text-2xl text-blue-900 py-4 font-play">Grünlippmuschel</p>
             <p class="text-sm leading-5">Eine ausgezeichnete Quelle für Mineralien, Aminosäuren, Omega-3-Fettsäuren und Glykosaminoglykane, die die Elastizität des Bindegewebes erhöhen und die Bausteine der Gelenkflüssigkeit und des Knorpels sind.
             </p>
           </div>
-          <div class="mt-10">
+          <div class="mt-10 px-5 lg:pl-0">
             <img loading="lazy" class="rounded-full w-full mx-auto sm:mx-0 max-w-[150px] sm:max-w-[180px]" src="img/kurkuma.jpg">
             <p class="text-2xl text-blue-900 py-4 font-play">Kurkuma</p>
             <p class="text-sm leading-5">Es verbessert die Verdauung, stärkt das Immunsystem und hilft, Entzündungen bei Hunden mit Erkrankungen wie Arthritis oder Allergien zu reduzieren und unterstützt die Herzgesundheit. Es hat auch krebshemmende Eigenschaften und kann helfen, das Wachstum und die Ausbreitung bestimmter Krebsarten bei Hunden zu verhindern.</p>
@@ -1066,7 +1073,7 @@
           <div class="w-1/12">
             <img loading="lazy" class="w-full" src="img/quote-l.svg">
           </div>
-          <p class="text-blue-900 text-lg sm:text-3xl italic self-center w-11/12 text-center font-play">Seine Gelenkprobleme sind wie verschwunden und er sieht tatsächlich wieder jung aus. Ich bin so Glücklich!
+          <p class="text-blue-900 text-2xl sm:text-3xl italic self-center w-11/12 text-center font-play">Seine Gelenkprobleme sind wie verschwunden und er sieht tatsächlich wieder jung aus. Ich bin so Glücklich!
             
           </p>
 
@@ -1076,7 +1083,7 @@
         </div>
 
 
-        <p class="text-red-800 text-3xl text-right pt-7 max-w-[950px] mx-auto font-sans">— Lenis Mutter</p>
+        <p class="text-red-800 text-xl text-right pt-7 max-w-[950px] mx-auto font-sans">— Lenis Mutter</p>
 
 
        <div class="max-w-[650px] ml-auto mr-auto">
@@ -1092,12 +1099,12 @@
           <div class="w-1/12">
             <img loading="lazy" class="w-full" src="img/quote-l.svg">
           </div>
-          <p class="text-blue-900 text-lg sm:text-3xl italic self-center w-11/12 text-center font-play">Im Gegensatz zu früher ist er jetzt voller Energie und Verspieltheit und sein Fell ist glänzend und schön.</p>
+          <p class="text-blue-900 text-2xl sm:text-3xl italic self-center w-11/12 text-center font-play">Im Gegensatz zu früher ist er jetzt voller Energie und Verspieltheit und sein Fell ist glänzend und schön.</p>
           <div class="w-1/12 self-end">
             <img loading="lazy" class="w-full -mt-8" src="img/quote-r.svg">
           </div>
         </div>
-        <p class="text-red-800 text-3xl text-right pt-7 max-w-[950px] mx-auto font-sans">— Timmys Mutter</p>
+        <p class="text-red-800 text-xl text-right pt-7 max-w-[950px] mx-auto font-sans">— Timmys Mutter</p>
 
 
 
@@ -1109,7 +1116,7 @@
         <div class="mt-5 mx-auto px-2">
           <!-- vimeo -->
         </div>
-        <div class="relative text-center mt-20 mb-10">
+        <div class="relative text-center mt-20 mb-10" id="faq">
           <span class="text-blue-900 relative text-xl md:text-3xl bg-white z-10 text-center font-bold px-4">MEISTGESTELLTE FRAGEN</span>
           <div class="bg-blue-900 absolute w-full h-[2px] z-0 top-1/2"></div>
         </div>
@@ -1283,7 +1290,7 @@
     <script>
       $(document).ready(function() {
         $(".trigger-m").click(function() {
-          $(".show-m").toggleClass("h-32");
+          $(".show-m").toggleClass("h-44");
         }); 
         $(".accordion-desc").fadeOut(0);
         $(".accordion").click(function() {
