@@ -26,7 +26,57 @@
   <script type="module" crossorigin src="./css/tailwind.css"></script>
 </head>
 
-  <body class="text-black font-grotesk text-lg">
+  <body class="text-black font-grotesk text-lg relative">
+
+    <div class="black-overlay-holder">
+
+      <div class="pop-up-holder">
+
+        <div class="pop-up-progess-bar">
+          <div class="meter animate">
+            <span style="width: 52%"><span></span></span>
+          </div>
+
+          <div class="progress-status">
+            Schritt 1 von 2
+          </div>
+
+        </div>
+
+        <div class="popup-top-icon">
+          <img src="img/dog-love.svg">
+        </div>
+        
+
+        <div class="pop-up-title">
+          Geben Sie Ihre E-Mail-Adresse ein und sichern Sie sich Ihre Bestellung Canine Booster für 10 Minuten (kostenlos!)
+        </div>
+
+        <div class="pop-up-sub-title">
+          Wir beziehen nur die hochwertigsten natürlichen Zutaten aus der ganzen Welt. Das bedeutet, dass unser Vorrat extrem begrenzt ist!
+        </div>
+
+
+        <form>
+          <label class="block">
+            <input type="text" value="" placeholder="Geben Sie Ihre E-Mail ein" class="pop-up-input"/>
+          </label>
+
+          <div class="align-c pull-down-30">
+            <button type="submit" class="pop-up-main-cta">
+              NÄCHSTER SCHRITT
+            </button>
+          </div>
+
+
+        </form>
+
+
+      </div>
+      
+    </div>
+
+
     <section>
       <div class="container mx-auto md:px-5 2xl:px-6 md:max-w-4xl lg:max-w-6xl">
         <div class="flex flex-row items-center justify-between md:max-w-4xl lg:max-w-6xl mx-auto py-6">
