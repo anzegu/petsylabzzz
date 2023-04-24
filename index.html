@@ -28,7 +28,7 @@
 
   <body class="text-black font-grotesk text-lg relative">
 
-    <div class="black-overlay-holder">
+    <div class="black-overlay-holder js-add-to-cart-overlay" style="display:none;">
 
       <div class="pop-up-holder">
 
@@ -57,18 +57,19 @@
         </div>
 
 
-        <form>
+        <form method="POST" class="js-email-form" action="">
           <label class="block">
-            <input type="text" value="" placeholder="Geben Sie Ihre E-Mail ein" class="pop-up-input"/>
+            <input type="email" name="email" value="" placeholder="Geben Sie Ihre E-Mail ein" class="pop-up-input" required/>
           </label>
 
           <div class="align-c pull-down-30">
+            <div class="pop-up-main-cta-loader" style="text-align: center;display: none;">
+              <img src="img/oval.svg" style="display: inline; ">
+            </div>
             <button type="submit" class="pop-up-main-cta">
               NÄCHSTER SCHRITT
             </button>
           </div>
-
-
         </form>
 
 
@@ -332,7 +333,7 @@
               <img id="ribbon" loading="lazy" class="absolute w-14 -top-2 -right-2" src="img/ribbon.svg">
             </div>
 
-            <a id="mainBtn" href="https://petsylabs.de/shop/onecheckout/add-to-cart/?intro&empty_cart=1&product_id=24&qty=1">
+            <a id="mainBtn" class="js-add-to-cart" href="https://petsylabs.de/shop/onecheckout/add-to-cart/?intro&empty_cart=1&product_id=24&qty=1">
               <button class="w-full justify-center flex items-center rounded bg-red-700 border-b-4 border-red-900 hover:bg-red-900 text-white font-bold px-4 py-4 mt-4 duration-300 text-[22px]">
                   <p class="ml-auto">IN DEN WARENKORB</p>
                   <img loading="lazy" class="ml-auto" src="img/cart.svg">
@@ -1347,6 +1348,25 @@
           $(this).next().slideToggle(400);
           $(this).toggleClass("active");
         });
+
+
+        $(".js-add-to-cart").click( function(e) {
+            // mainBtn
+            e.preventDefault();
+
+            $(".js-email-form").attr("action", $(this).attr("href") )
+
+            $(".js-add-to-cart-overlay").fadeIn();
+            triggerRedtrackEvent( "SeenEmailPopup" );
+
+        } );
+
+        $(".js-email-form").on("submit", function() {
+            $(".meter span").css('width', '100%');
+            $(".pop-up-main-cta").hide();
+            $(".pop-up-main-cta-loader").show();
+        })
+
       });
 
       var rModal1 = document.getElementsByClassName("rModal1")[0];

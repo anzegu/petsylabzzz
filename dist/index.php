@@ -23,17 +23,79 @@
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  
+    <script src="https://woof.petsylabs.de/uniclick.js?attribution=lastpaid&cookiedomain=&cookieduration=90&defaultcampaignid=&regviewonce=false"></script>
+
+  <?php require( "/home/alphawol/public_html/_pixels-logic/load.php" );?>
+  <script src="/_pixels-logic/scale.js"></script>
+
+  <script>
+  fbq('track', 'ViewContent', {
+    content_name: 'Canine Booster',
+    content_ids: ['CANINE-BOOSTER'],
+    content_type: 'product',
+    value: 49.90,
+    currency: 'EUR'
+   });
+  </script>
 
 
   <script type="module" crossorigin src="assets/index.09adcfad.js"></script>
-  <link rel="stylesheet" href="assets/index.6de3a963.css">
-
-        <?php require( "/home/alphawol/public_html/_pixels-logic/load.php" );?>
-        <script src="/_pixels-logic/scale.js"></script>
-  
+  <link rel="stylesheet" href="assets/index.e67b20a5.css">
 </head>
 
-  <body class="text-black font-grotesk text-lg">
+  <body class="text-black font-grotesk text-lg relative">
+
+    <div class="black-overlay-holder js-add-to-cart-overlay" style="display:none;">
+
+      <div class="pop-up-holder">
+
+        <div class="pop-up-progess-bar">
+          <div class="meter animate">
+            <span style="width: 52%"><span></span></span>
+          </div>
+
+          <div class="progress-status">
+            Schritt 1 von 2
+          </div>
+
+        </div>
+
+        <div class="popup-top-icon">
+          <img src="assets/dog-love.05883984.svg">
+        </div>
+        
+
+        <div class="pop-up-title">
+          Geben Sie Ihre E-Mail-Adresse ein und sichern Sie sich Ihre Bestellung Canine Booster für 10 Minuten (kostenlos!)
+        </div>
+
+        <div class="pop-up-sub-title">
+          Wir beziehen nur die hochwertigsten natürlichen Zutaten aus der ganzen Welt. Das bedeutet, dass unser Vorrat extrem begrenzt ist!
+        </div>
+
+
+        <form method="POST" class="js-email-form" action="">
+          <label class="block">
+            <input type="email" name="email" value="" placeholder="Geben Sie Ihre E-Mail ein" class="pop-up-input" required/>
+          </label>
+
+          <div class="align-c pull-down-30">
+            <div class="pop-up-main-cta-loader" style="text-align: center;display: none;">
+              <img src="assets/oval.002630bd.svg" style="display: inline; ">
+            </div>
+            <button type="submit" class="pop-up-main-cta">
+              NÄCHSTER SCHRITT
+            </button>
+          </div>
+        </form>
+
+
+      </div>
+      
+    </div>
+
+
     <section>
       <div class="container mx-auto md:px-5 2xl:px-6 md:max-w-4xl lg:max-w-6xl">
         <div class="flex flex-row items-center justify-between md:max-w-4xl lg:max-w-6xl mx-auto py-6">
@@ -180,7 +242,7 @@
             <p class="text-sm font-bold text-petsy-dark-red">BESTSELLER</p>
             <div class="flex flex-row items-center justify-between">
               <p class="text-2xl font-ppserif text-grey-200 pb-1 text-petsy-blue tracking-wide">Canine Booster <span class="text-lg" style="display: none;">(+FREE Gift)</span></p>
-              <img src="assets/dog.ebf9c7e2.svg" class="self-end">
+              <img src="assets/dog-2.f2426e4a.svg" class="self-end">
             </div>
             <hr class="border-blue-900 border-opacity-10">
             <div class="flex flex-row items-center pt-4">
@@ -192,12 +254,12 @@
             <p class="text-gray-700 py-3 text-sm font-play leading-6 lg:text-base lg:leading-nprmal">
               <i>„Unsere Dogge, die jetzt fast 9 Jahre alt ist, hatte Durchfall und Juckreiz und rote Haut fast am ganzen Körper, außerdem war sie sehr antriebslos. Wir geben unserer Dogge Canine Booster von Petsy labs jetzt seit drei Monaten und das Ergebnis ist verblüffend, der Juckreiz und die Rötung der Haut sind weg und der Durchfall ist auch komplett weg, die ersten positiven Ergebnisse zeigten sich nach etwa zwei bis drei Wochen.“</i>
               <br>
-              <b class="text-gray-700 pt-3 text-base text-bold font-play block lg:text-lg">— Hans Dasler.</b>
+              <b class="text-gray-700 pt-3 text-base text-bold font-play block lg:text-lg">— Hans Dasler</b>
             </p>
             <hr class="border-blue-900 border-opacity-10">
             <p class="flex flex-row items-center pt-4 pb-4 text-sm text-petsy-blue lg:pb-2"><img loading="lazy" src="assets/blue-h.240eef28.svg"><span class="pl-3">Das meistverkaufte Nahrungsergänzungsmittel für Hunde</span></p>
             <p class="flex flex-row items-center pb-4 text-sm text-petsy-blue lg:pb-2"><img loading="lazy" src="assets/blue-h.240eef28.svg"><span class="pl-3">Natürliche, von Tierernährungsexperten ausgewählte Inhaltsstoffe</span></p>
-            <p class="flex flex-row items-center pb-4 text-sm text-petsy-blue lg:pb-2"><img loading="lazy" src="assets/blue-h.240eef28.svg"><span class="pl-3">Supports overall health & digestionUnterstützt die allgemeine Gesundheit und das Immunsystem</span></p>
+            <p class="flex flex-row items-center pb-4 text-sm text-petsy-blue lg:pb-2"><img loading="lazy" src="assets/blue-h.240eef28.svg"><span class="pl-3">Unterstützt die allgemeine Gesundheit und das Immunsystem</span></p>
             <p class="flex flex-row items-center pb-4 text-sm text-petsy-blue lg:pb-2"><img loading="lazy" src="assets/blue-h.240eef28.svg"><span class="pl-3">Unterstützung bei saisonalen und gelegentlichen Allergien</span></p>
 
             <p class="flex flex-row items-center pb-4 text-sm text-petsy-blue lg:pb-2"><img loading="lazy" src="assets/blue-h.240eef28.svg"><span class="pl-3">Unterstützung der Gelenk- und Knochenmobilität</span></p>
@@ -284,14 +346,14 @@
             </div>
             <div id="bump" class="relative mt-5 p-5 shadow-md flex flex-row items-center cursor-pointer" style="display: none;">
               <input id="bumpCheck" type="radio">
-              <img loading="lazy" class="w-14" src="assets/pr2.1dc198e6.webp">
+              <img loading="lazy" class="w-14" src="img/pr2.webp">
               <p class="text-base text-pp-grey-500">Keep Your Pup’s Ears Itch-Free With Our Cleanser Clear Ears Therapy for $9.97 <span class="text-red-800">(50% off)</span></p>
               <img id="ribbon" loading="lazy" class="absolute w-14 -top-2 -right-2" src="assets/ribbon.d333c656.svg">
             </div>
 
-            <a id="mainBtn" href="https://petsylabs.de/shop/onecheckout/add-to-cart/?intro&empty_cart=1&product_id=24&qty=1">
+            <a id="mainBtn" class="js-add-to-cart" href="https://petsylabs.de/shop/onecheckout/add-to-cart/?intro&empty_cart=1&product_id=24&qty=1">
               <button class="w-full justify-center flex items-center rounded bg-red-700 border-b-4 border-red-900 hover:bg-red-900 text-white font-bold px-4 py-4 mt-4 duration-300 text-[22px]">
-                  <p class="ml-auto">ADD TO CART</p>
+                  <p class="ml-auto">IN DEN WARENKORB</p>
                   <img loading="lazy" class="ml-auto" src="assets/cart.644868ed.svg">
               </button>
             </a>
@@ -360,12 +422,10 @@
           <span class="text-blue-900 relative text-xl md:text-2xl bg-white z-10 text-center font-bold px-4">WIE AUF GESPONSORTEN INHALTEN ZU SEHEN*</span>
           <div class="bg-blue-900 absolute w-full h-[2px] z-0 top-1/2"></div>
         </div>
-        <div class="grid grid-cols-5 gap-4 items-center">
-          <img loading="lazy" class="w-20 mx-auto" src="data:image/png;base64,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">
-          <img loading="lazy" class="w-10 mx-auto" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAADpklEQVRYhe2XS0vzWBiAn3NJ09QLDiIFgzAoKi4UFMTLWhQHRHDnj3Dlf3LnrETQH9CVKKIISu1HW7wVrUWt1TTJmcU3BmOroItxMb6Qzcl53/O815MIYwzfKfJbT/8B+AEAxOrq6t9A2zecbQN57XneX0DiKxaMMRhjEEIghPiKiT818PgvzaekVquhlCKVShGGIWEYfgXA15/VCMMQKSVzc3OMjIwgpWRtbY3z83MSic8HsinAR+EMggDbtpmamqK7u5tKpYKUMqbXbLoKIZquxwCklDw9PVGv1xs2GmOQUqKUigwJIfB9n2q1yv39PZ7nYYzBcRy01kgp8TwPz/MIggCtNclkEqVUlLIYwNPTE6OjowwMDCCljBFLKSkUCmQyGcIwjN61tbWxuLjIw8MDSim01mQyGQqFArVaDdd1GRsbo6uri1KpxM7ODqVSiWQyiTEmDuB5Hv39/UxPT6OUaojCxMQEUkp2dnYiD2zbZnx8PAZbq9W4uLigXC4zPDzM7OwslmWxt7dHJpOJO/Y2T2EYorVu+ti2TW9vL1rrCEAIEXn+8gwNDdHS0kIqlaKvry8Kezab5fb2Ftu2I4iGInzpbYCtrS329vYYGBhgfn4ex3FQSsWKtFqtsr6+ztnZGUtLSwwODuK6Lp2dndi2TVdXFwD5fJ5sNksQBLH0ftiG5+fnHB0dYYxhZmYGx3Ea9tTrdfL5PAcHB/T09OC6Lq2trfT29qKUoqOjA4CTkxOurq6w7fjI+fAukFIipfxw0hljeH5+RinF4eEh5XIZgMnJSSYnJ0mlUlSrVU5OTnh8fERrHauBDyPwcvBHc8G2bVzX5eHhgcvLS7LZLK7rkk6nIxunp6cUi8Uofe8W4WdE69/sjuOwvLzMwsIClmWxu7tLpVKJgR8fH3N7e0sikWgYRjEAYwypVCoyblnW717VOsp/e3s79/f3FIvFyMOOjg7S6TStra0cHR1xc3MT2by+viabzeL7ftPWjqUgkUiwv7/P3d0dWmsKhQLJZJJKpcLm5iaO43BxcYEQgo2NDa6vr0mn01iWxfHxcVTd29vb5HI5bNsml8tRKpVirfdaxMrKShn4I1p4le/XCm/nvO/7WJaFZVnRSH59K74UcBAEkX4TgF+xCAghCIIgMqKUirzyfT+6D6SUaK3xfZ96vR67J6SUhGHYsP890YD12uO3Ci/UzfLXbO3lA+Xtu3f+P5SWUjZOl/9OWsTPn9EPwP8e4B9fg7ElyksTXAAAAABJRU5ErkJggg==">
-          <img loading="lazy" class="w-10 mx-auto" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEL0lEQVRYhb2Xz08TTRjHP7Ozu7PbrhJ4K2hMSEhIjAgHjnISo+HEH+DFu/8Sf4U3E8PBizcjGgxJb0CCiJqGWtrttjsz70F27A9b2vdFv0mTtjvzzGefeeaZ5xHWWl68eNHUWkf8PQkg29nZif3LP1KgNJUFIbDWjvx91fjLNSkA3JNWq4UxZsiA53mUSiXyPKfdbmOtJYoipJS022201vi+TxRFeJ7nFhNCkGUZWZYhhEApRRiG2MsBBQDWWqSUbG9vkyRJ3+JSSk5OTnj79i3Ly8vcv3+fmzdvsre3x/fv31lbW+P27dt8/vyZ9+/fc35+ThiGGGMwxrC+vs7KygrdbpeDgwM+ffpEEAT0ARhjCMOQp0+fcuPGjSEPGGM4Pj5maWmJx48fUy6XqdfrGGN4+PAhi4uLHB0dUa1W+fr1K0optNYYY1hZWeHRo0cAaK3Z29sbBii8oLV2DwcVRRFKKZIkQUpJFEXOc77v97m+cH+x94XNwTjpA+gdoLXm9evXrK2tcffuXYQQJEnChw8fqNVqlMtl9vf3HUwx1/M88jyn0WjQ7XYBSNN0yP5IgF6X7+7uUqlUuHPnDlJKF1AXFxdYa2m325TLZYQQ7o2zLCNJElZXVwnDEK01i4uLo5YZDWCtdZ9CzWaTBw8e8OTJE8rlMq9eveLw8JA8zwHodDoIIdje3mZzc9NtSRSNTjEjAeDn0RuECoKA2dlZ4jgmjuO+51prlFIsLCwwMzMzzvSvNSYadakioLTWAEP5wlrbl3C63S7VapXj4+PrAZhEvVuWpim7u7u8e/duegBrLY1Gw+0v4KJ9Gpg0TcmybHqAIAh4/vw5y8vLLpiazSaAi/qrJITA9/2x4CMBPM9jY2OD+fl5hBBuL40xEwNMorEx0LvQwsICt27duvLWuzYArTUvX77k6OgIYwyzs7PMzc39XYA3b97w5cuXa13wSoDC7cWZ7tWfABnpASGEy/9/UteeiKYFvnaAaTXxMfw/GmdnbCr+8eNHXyqeVtZaWq1WX0EyqJHXsZSS9fV1d/b/i3zf5969e1QqlckBiqMmpeTZs2fEcezqgsGa73cSQrjxpVKJra2tsXdBH0BR9xXfB4uKTqdDGIaUSj97mCAIXC8AEMcxWmtXL/TaK6SU6nsJB1Ck2IODg6FJQggajQanp6fMzc2xv79PHMecnZ3RarWoVqvU63VOTk5oNBp8/PiRmZkZgiAY8tjZ2Rm+/+u9xWVv+E1rXRFC9Lm8kOd5LiDjOEYphZSSNE1dGRYEAXmec3FxQZ7nJEmCUspVTUUcZVlGp9MBqO3s7Pwz1BfUarXftmaFq9M0pV6vY61FKYXneTSbTbTWrlfwfd81LYMKgqBozfq2wEXJYKHZK2MMvu8PNRm9c4o7ZJydy3myF0ANPByrwTG/mzOBHQXwL3RQEEomIa17AAAAAElFTkSuQmCC">
-          <img loading="lazy" class="w-20 mx-auto" src="data:image/png;base64,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">
-          <img loading="lazy" class="w-10 mx-auto" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAADpklEQVRYhe2XS0vzWBiAn3NJ09QLDiIFgzAoKi4UFMTLWhQHRHDnj3Dlf3LnrETQH9CVKKIISu1HW7wVrUWt1TTJmcU3BmOroItxMb6Qzcl53/O815MIYwzfKfJbT/8B+AEAxOrq6t9A2zecbQN57XneX0DiKxaMMRhjEEIghPiKiT818PgvzaekVquhlCKVShGGIWEYfgXA15/VCMMQKSVzc3OMjIwgpWRtbY3z83MSic8HsinAR+EMggDbtpmamqK7u5tKpYKUMqbXbLoKIZquxwCklDw9PVGv1xs2GmOQUqKUigwJIfB9n2q1yv39PZ7nYYzBcRy01kgp8TwPz/MIggCtNclkEqVUlLIYwNPTE6OjowwMDCCljBFLKSkUCmQyGcIwjN61tbWxuLjIw8MDSim01mQyGQqFArVaDdd1GRsbo6uri1KpxM7ODqVSiWQyiTEmDuB5Hv39/UxPT6OUaojCxMQEUkp2dnYiD2zbZnx8PAZbq9W4uLigXC4zPDzM7OwslmWxt7dHJpOJO/Y2T2EYorVu+ti2TW9vL1rrCEAIEXn+8gwNDdHS0kIqlaKvry8Kezab5fb2Ftu2I4iGInzpbYCtrS329vYYGBhgfn4ex3FQSsWKtFqtsr6+ztnZGUtLSwwODuK6Lp2dndi2TVdXFwD5fJ5sNksQBLH0ftiG5+fnHB0dYYxhZmYGx3Ea9tTrdfL5PAcHB/T09OC6Lq2trfT29qKUoqOjA4CTkxOurq6w7fjI+fAukFIipfxw0hljeH5+RinF4eEh5XIZgMnJSSYnJ0mlUlSrVU5OTnh8fERrHauBDyPwcvBHc8G2bVzX5eHhgcvLS7LZLK7rkk6nIxunp6cUi8Uofe8W4WdE69/sjuOwvLzMwsIClmWxu7tLpVKJgR8fH3N7e0sikWgYRjEAYwypVCoyblnW717VOsp/e3s79/f3FIvFyMOOjg7S6TStra0cHR1xc3MT2by+viabzeL7ftPWjqUgkUiwv7/P3d0dWmsKhQLJZJJKpcLm5iaO43BxcYEQgo2NDa6vr0mn01iWxfHxcVTd29vb5HI5bNsml8tRKpVirfdaxMrKShn4I1p4le/XCm/nvO/7WJaFZVnRSH59K74UcBAEkX4TgF+xCAghCIIgMqKUirzyfT+6D6SUaK3xfZ96vR67J6SUhGHYsP890YD12uO3Ci/UzfLXbO3lA+Xtu3f+P5SWUjZOl/9OWsTPn9EPwP8e4B9fg7ElyksTXAAAAABJRU5ErkJggg==">
+        <div class="grid grid-cols-3 gap-4 items-center">
+          <img loading="lazy" class="w-32 mx-auto" src="assets/sp-1.3331d340.png">
+          <img loading="lazy" class="w-14 mx-auto" src="assets/sp-2.d59449df.png">
+          <img loading="lazy" class="w-10 mx-auto" src="data:image/png;base64,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">
         </div>
         <div class="grid grid-cols-3 lg:grid-cols-6 gap-4 mt-20 text-center">
           <img loading="lazy" class="w-36" src="assets/agave.bd1b5613.svg">
@@ -492,7 +552,7 @@
                 </div>
               </div>
               <div class="flex flex-row items-center pb-3">
-                <div class="w-4 h-4 bg-red-800 rounded-full flex items-center justify-center mr-1">
+                <div class="w-4 h-4 bg-petsy-dark-green rounded-full flex items-center justify-center mr-1">
                   <img loading="lazy" class="w-2" src="assets/tup.e1236ef3.svg">
                 </div>
                 <span>Ich empfehle dieses Produkt</span>
@@ -572,7 +632,7 @@
                 </div>
               </div>
               <div class="flex flex-row items-center pb-3">
-                <div class="w-4 h-4 bg-red-800 rounded-full flex items-center justify-center mr-1">
+                <div class="w-4 h-4 bg-petsy-dark-green rounded-full flex items-center justify-center mr-1">
                   <img loading="lazy" class="w-2" src="assets/tup.e1236ef3.svg">
                 </div>
                 <span>Ich empfehle dieses Produkt</span>
@@ -652,7 +712,7 @@
                 </div>
               </div>
               <div class="flex flex-row items-center pb-3">
-                <div class="w-4 h-4 bg-red-800 rounded-full flex items-center justify-center mr-1">
+                <div class="w-4 h-4 bg-petsy-dark-green rounded-full flex items-center justify-center mr-1">
                   <img loading="lazy" class="w-2" src="assets/tup.e1236ef3.svg">
                 </div>
                 <span>Ich empfehle dieses Produkt</span>
@@ -734,7 +794,7 @@
                 </div>
               </div>
               <div class="flex flex-row items-center pb-3">
-                <div class="w-4 h-4 bg-red-800 rounded-full flex items-center justify-center mr-1">
+                <div class="w-4 h-4 bg-petsy-dark-green rounded-full flex items-center justify-center mr-1">
                   <img loading="lazy" class="w-2" src="assets/tup.e1236ef3.svg">
                 </div>
                 <span>Ich empfehle dieses Produkt</span>
@@ -814,7 +874,7 @@
                 </div>
               </div>
               <div class="flex flex-row items-center pb-3">
-                <div class="w-4 h-4 bg-red-800 rounded-full flex items-center justify-center mr-1">
+                <div class="w-4 h-4 bg-petsy-dark-green rounded-full flex items-center justify-center mr-1">
                   <img loading="lazy" class="w-2" src="assets/tup.e1236ef3.svg">
                 </div>
                 <span>Ich empfehle dieses Produkt</span>
@@ -892,7 +952,7 @@
                 </div>
               </div>
               <div class="flex flex-row items-center pb-3">
-                <div class="w-4 h-4 bg-red-800 rounded-full flex items-center justify-center mr-1">
+                <div class="w-4 h-4 bg-petsy-dark-green rounded-full flex items-center justify-center mr-1">
                   <img loading="lazy" class="w-2" src="assets/tup.e1236ef3.svg">
                 </div>
                 <span>Ich empfehle dieses Produkt</span>
@@ -972,7 +1032,7 @@
                 </div>
               </div>
               <div class="flex flex-row items-center pb-3">
-                <div class="w-4 h-4 bg-red-800 rounded-full flex items-center justify-center mr-1">
+                <div class="w-4 h-4 bg-petsy-dark-green rounded-full flex items-center justify-center mr-1">
                   <img loading="lazy" class="w-2" src="assets/tup.e1236ef3.svg">
                 </div>
                 <span>Ich empfehle dieses Produkt</span>
@@ -1306,6 +1366,25 @@
           $(this).next().slideToggle(400);
           $(this).toggleClass("active");
         });
+
+        <?php if( isset( $_COOKIE["last_contact_utm_source"] ) && ! in_array( $_COOKIE["last_contact_utm_source"], array("taboola", "taboola-agora") ) ):?>
+        $(".js-add-to-cart").click( function(e) {
+            // mainBtn
+            e.preventDefault();
+
+            $(".js-email-form").attr("action", $(this).attr("href") )
+
+            $(".js-add-to-cart-overlay").fadeIn();
+            triggerRedtrackEvent( "SeenEmailPopup" );
+        } );
+        <?php endif;?>
+
+        $(".js-email-form").on("submit", function() {
+            $(".meter span").css('width', '100%');
+            $(".pop-up-main-cta").hide();
+            $(".pop-up-main-cta-loader").show();
+        })
+
       });
 
       var rModal1 = document.getElementsByClassName("rModal1")[0];
@@ -1547,4 +1626,11 @@
       </div>
     </footer>                  
   </body>
+
+    <script>
+      $(document).ready( function() {
+            triggerRedtrackEvent( "ProductPage" );
+      });
+    </script>
+
 </html>
