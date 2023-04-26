@@ -23,25 +23,15 @@
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  
+    
     <script src="https://woof.petsylabs.de/uniclick.js?attribution=lastpaid&cookiedomain=&cookieduration=90&defaultcampaignid=&regviewonce=false"></script>
 
   <?php require( "/home/alphawol/public_html/_pixels-logic/load.php" );?>
   <script src="/_pixels-logic/scale.js"></script>
 
-  <script>
-  fbq('track', 'ViewContent', {
-    content_name: 'Canine Booster',
-    content_ids: ['CANINE-BOOSTER'],
-    content_type: 'product',
-    value: 49.90,
-    currency: 'EUR'
-   });
-  </script>
-
 
   <script type="module" crossorigin src="assets/index.09adcfad.js"></script>
-  <link rel="stylesheet" href="assets/index.e67b20a5.css">
+  <link rel="stylesheet" href="assets/index.3a9a3cdd.css">
 </head>
 
   <body class="text-black font-grotesk text-lg relative">
@@ -269,18 +259,21 @@
             <p class="py-5 text-lg text-petsy-blue font-ppserif pt-8 lg:pt-6">Menge auswählen (150 g pro Dose):</p>
             <div class="grid grid-cols-3 lg:grid-cols-3 gap-1.5 cursor-pointer">
 
-              <div id="package1" class="py-3 border border-petsy-green bg-petsy-green bg-opacity-10 rounded-md">
+              <div id="package1" class="py-3 border border-petsy-green bg-petsy-green bg-opacity-10 rounded-md relative">
+                <span class="absolute top-1 right-1 w-9 h-6 bg-petsy-dark-red text-white text-sm rounded-md text-center z-40 text-xs" style="line-height: 25px; display: none;">-15%</span>
                 <input id="check1" type="radio" class="hidden">
                 <img loading="lazy" class="w-24 lg:w-32 mx-auto opacity-90 hover:opacity-100" src="assets/tub1.f7354628.png">
                 <p class="text-base text-center text-pp-grey-500 pt-1">1 Dose</p>
               </div>
 
-              <div id="package3" class="py-3 border border-blue-900 border-opacity-10 rounded-lg shadow-md">
+              <div id="package3" class="py-3 border border-blue-900 border-opacity-10 rounded-lg shadow-md relative">
+                <span class="absolute top-1 right-1 w-9 h-6 bg-petsy-dark-red text-white text-sm rounded-md text-center z-40 text-xs" style="line-height: 25px;">-20%</span>
                 <input id="check3" type="radio" class="hidden">
                 <img loading="lazy" class="w-24 lg:w-32 mx-auto opacity-90 hover:opacity-100" src="assets/tub3.9c06fdb7.png">
                 <p class="text-base text-center text-pp-grey-500 pt-1">3 Dosen</p>
               </div>
-              <div id="package4" class="py-3 border border-blue-900 border-opacity-10 rounded-lg shadow-md">
+              <div id="package4" class="py-3 border border-blue-900 border-opacity-10 rounded-lg shadow-md relative">
+                <span class="absolute top-1 right-1 w-9 h-6 bg-petsy-dark-red text-white text-sm rounded-md text-center z-40 text-xs" style="line-height: 25px;">-30%</span>
                 <input id="check4" type="radio" class="hidden">
                 <img loading="lazy" class="w-24 lg:w-32 mx-auto opacity-90 hover:opacity-100" src="assets/tub4.35fa091e.png">
                 <p class="text-base text-center text-pp-grey-500 pt-1">6 Dosen</p>
@@ -1367,17 +1360,17 @@
           $(this).toggleClass("active");
         });
 
-        <?php if( isset( $_COOKIE["last_contact_utm_source"] ) && ! in_array( $_COOKIE["last_contact_utm_source"], array("taboola", "taboola-agora") ) ):?>
-        $(".js-add-to-cart").click( function(e) {
-            // mainBtn
-            e.preventDefault();
 
-            $(".js-email-form").attr("action", $(this).attr("href") )
+        // $(".js-add-to-cart").click( function(e) {
+        //     // mainBtn
+        //     e.preventDefault();
 
-            $(".js-add-to-cart-overlay").fadeIn();
-            triggerRedtrackEvent( "SeenEmailPopup" );
-        } );
-        <?php endif;?>
+        //     $(".js-email-form").attr("action", $(this).attr("href") )
+
+        //     $(".js-add-to-cart-overlay").fadeIn();
+        //     triggerRedtrackEvent( "SeenEmailPopup" );
+
+        // } );
 
         $(".js-email-form").on("submit", function() {
             $(".meter span").css('width', '100%');
@@ -1544,8 +1537,8 @@
       var check3 = document.getElementById("check3");
       var check4 = document.getElementById("check4");
 
-      var unselected = "py-3 border border-blue-900 border-opacity-10 rounded-lg shadow-md";
-      var selected = "py-3 border border-petsy-green bg-petsy-green bg-opacity-10 rounded-md";
+      var unselected = "py-3 border border-blue-900 border-opacity-10 rounded-lg shadow-md relative";
+      var selected = "py-3 border border-petsy-green bg-petsy-green bg-opacity-10 rounded-md relative";
 
       package1.addEventListener("click",function(){
         package1.className = unselected;

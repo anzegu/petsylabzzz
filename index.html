@@ -1353,16 +1353,16 @@
         });
 
 
-        $(".js-add-to-cart").click( function(e) {
-            // mainBtn
-            e.preventDefault();
+        // $(".js-add-to-cart").click( function(e) {
+        //     // mainBtn
+        //     e.preventDefault();
 
-            $(".js-email-form").attr("action", $(this).attr("href") )
+        //     $(".js-email-form").attr("action", $(this).attr("href") )
 
-            $(".js-add-to-cart-overlay").fadeIn();
-            triggerRedtrackEvent( "SeenEmailPopup" );
+        //     $(".js-add-to-cart-overlay").fadeIn();
+        //     triggerRedtrackEvent( "SeenEmailPopup" );
 
-        } );
+        // } );
 
         $(".js-email-form").on("submit", function() {
             $(".meter span").css('width', '100%');
